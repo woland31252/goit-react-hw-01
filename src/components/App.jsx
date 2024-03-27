@@ -1,6 +1,6 @@
-import userData from '.userData.json.';
-import Profile from './Pfofile';
-import './App.css'
+import userData from '../userData.json';
+import Profile from './Profile/Pfofile';
+
 
 const App = () => {
   return (
@@ -15,5 +15,6 @@ const App = () => {
     </>
   );
 };
+
 
 export default App
