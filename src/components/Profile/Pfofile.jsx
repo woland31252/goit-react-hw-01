@@ -3,7 +3,7 @@ import css from "./Profile.module.css";
   
 const nameTile = clsx(css.item, css.name);
 const statsItem = clsx(css.statsItem, css.statsBorder)
-const statsData = clsx(css.statsText, css.name)
+const statsData = clsx(css.statsText, css.data)
 
 export default function Profile({
     name,

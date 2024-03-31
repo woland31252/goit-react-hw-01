@@ -13,13 +13,15 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .card {
-    padding: 12px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .item {
@@ -32,6 +34,7 @@
 .name {
     color: #0f0f0f;
     font-weight: 600;
+    margin: 10px 0;
 }
 
 .statsList {
@@ -53,6 +56,11 @@
 .statsText {
     font-size: 25px;
     line-height: 1.5;
+}
+
+.data {
+    color: #0f0f0f;
+    font-weight: 600;
 }
 
 
