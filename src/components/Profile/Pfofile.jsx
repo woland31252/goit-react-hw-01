@@ -1,7 +1,9 @@
 import clsx from 'clsx'
 import css from "./Profile.module.css";
   
-const nameTile = clsx(css.item, css.name)
+const nameTile = clsx(css.item, css.name);
+const statsItem = clsx(css.statsItem, css.statsBorder)
+const statsData = clsx(css.statsText, css.name)
 
 export default function Profile({
     name,
@@ -12,7 +14,7 @@ export default function Profile({
             followers,
             views,
             likes
-           }
+    }
 }) {
     return (
         <div className={css.container}>
@@ -25,15 +27,15 @@ export default function Profile({
             <ul className={css.statsList}>
                 <li className={css.statsItem}>
                     <span className={css.statsText}>Followers</span>
-                    <span className={css.statsText}>{followers}</span>
+                    <span className={statsData}>{followers}</span>
                 </li>
-                <li className={css.statsItem}>
+                <li className={statsItem}>
                     <span className={css.statsText}>Views</span>
-                    <span className={css.statsText}>{views}</span>
+                    <span className={statsData}>{views}</span>
                 </li>
                 <li className={css.statsItem}>
                    <span className={css.statsText}>Likes</span> 
-                    <span className={css.statsText}>{likes}</span> 
+                    <span className={statsData}>{likes}</span> 
                 </li>
             </ul>
         </div>

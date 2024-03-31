@@ -29,7 +29,7 @@
     line-height: 1.2;
 }
 
-.item.name {
+.name {
     color: #0f0f0f;
     font-weight: 600;
 }
@@ -38,15 +38,16 @@
     display: flex;
     text-align: center;
     border-top: 2px solid;
-    border-color: darkgray;
+    border-color: darkgrey;
     width: 100%;
-    padding: 20px 0;
+    background-color: lightgrey;
 }
 
 .statsItem {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 20px 0;
 }
 
 .statsText {
@@ -54,9 +55,6 @@
     line-height: 1.5;
 }
 
-.stasText.data {
-    font-weight: 700;
-}
 
 .statsBorder {
     border-left: 2px solid;
