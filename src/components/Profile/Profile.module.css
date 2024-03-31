@@ -25,21 +25,37 @@
 .item {
     text-align: center;
     font-size: 30px;
-
+    color: darkgray;
+    line-height: 1.2;
 }
 
-.stats {
+.item.name {
+    color: #0f0f0f;
+    font-weight: 600;
+}
+
+.statsList {
     display: flex;
     text-align: center;
     border-top: 2px solid;
     border-color: darkgray;
     width: 100%;
+    padding: 20px 0;
 }
 
 .statsItem {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.statsText {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.stasText.data {
+    font-weight: 700;
 }
 
 .statsBorder {
