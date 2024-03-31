@@ -1,0 +1,17 @@
+.table {
+    margin: 0 auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 70%;
+}
+
+.bodyTabl {
+    font-size: 20px;
+    line-height: 2;
+}
+
+
+.lineSecond {
+    background-color: gray;
+}

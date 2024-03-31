@@ -1,0 +1,30 @@
+.card {
+    border:2px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 75px;
+}
+
+.userName {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.userStatus {
+    font-size: 18px;
+    line-height: 0.9;
+}
+
+.userOnline {
+    color: green;
+}
+
+.userOfline {
+    color: red;
+}

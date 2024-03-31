@@ -1,4 +1,4 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import css from "./Profile.module.css";
   
 const nameTile = clsx(css.item, css.name);

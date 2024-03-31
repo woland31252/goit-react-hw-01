@@ -1,3 +1,6 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+
 p {
   margin:0;
 }
@@ -10,7 +13,7 @@ ul {
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: rgb(224, 232, 233);
   padding: 12px;
   box-sizing: border-box;
   font-family: Montserrat;

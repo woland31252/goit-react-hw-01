@@ -1,19 +1,24 @@
 import userData from '../userData.json';
+import friends from '../friends.json';
+import transactions from '../transactions.json'
 import Profile from './Profile/Pfofile';
+import FriendList from './FriendList/FriendList';
+import TransactionHistory from './TransactionHistory/TransactionHistory'
+
 
 
 const App = () => {
   return (
     <>
       <Profile
-        marker
         name={userData.username}
         tag={userData.tag}
         location={userData.location}
         image={userData.avatar}
         stats={userData.stats}
-       
       />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 };
