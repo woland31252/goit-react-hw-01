@@ -7,7 +7,7 @@ export default function FriendListItem({ friends: {
     name,
     isOnline,
 } }) {
-    const userStatus = clsx(css.userStatus, isOnline?css.userOnline: css.userOfline)
+    const userStatus = clsx(css.userStatus, isOnline?css.userOnline: css.userOffline)
     return (
         <div className={css.card}>
             <img src={avatar} alt="Avatar" width="48" />

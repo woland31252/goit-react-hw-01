@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import css from "./Profile.module.css";
   
-const nameTile = clsx(css.item, css.name);
+const nameTitle = clsx(css.item, css.name);
 const statsItem = clsx(css.statsItem, css.statsBorder)
 const statsData = clsx(css.statsText, css.data)
 
@@ -20,7 +20,7 @@ export default function Profile({
         <div className={css.container}>
             <div className={css.card}>
                 <img className={css.image} src={image} alt="avatar" />
-                <p className={nameTile}>{name}</p>
+                <p className={nameTitle}>{name}</p>
                 <p className={css.item}>{tag}</p>
                 <p className={css.item}>{location}</p>
             </div>
